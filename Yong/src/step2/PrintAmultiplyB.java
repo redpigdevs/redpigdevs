@@ -12,7 +12,7 @@ public class PrintAmultiplyB {
 		
 		//int a = 3;
 		//int b = 4;
-		
+	
 		int a = scan.nextInt();
 		int b = scan.nextInt();
 		
