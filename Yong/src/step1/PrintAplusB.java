@@ -15,7 +15,7 @@ public class PrintAplusB {
 		
 		int a = scan.nextInt();
 		int b = scan.nextInt();
-		
+	
 		//int c = a + b;
 		//System.out.println(c);
 		System.out.println(a + b);
