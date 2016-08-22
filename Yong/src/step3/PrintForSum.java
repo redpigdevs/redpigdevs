@@ -6,7 +6,7 @@ public class PrintForSum {
 
     @SuppressWarnings("resource")
     public static void main(String[] args) {
-		
+	
         Scanner scan = new Scanner(System.in);
         
         //int sumNum = 3;
