@@ -12,7 +12,7 @@ public class PrintForStarOne {
 		
 		//int a = 5;
 		int a = scan.nextInt();
-		
+	
 		for(int i = 1; i <= a; i++) {	//세로
 			
 			for(int j = 1; j <= i; j++) {	//가로, i 를 a 로 하면 5개씩 출력
