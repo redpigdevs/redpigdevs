@@ -9,7 +9,7 @@ public class PrintAminusB {
 		// TODO Auto-generated method stub
 		
 		Scanner scan = new Scanner(System.in);
-		
+	
 		//int a = 3;
 		//int b = 2;
 		
