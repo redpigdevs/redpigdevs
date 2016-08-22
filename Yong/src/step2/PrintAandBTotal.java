@@ -1,4 +1,4 @@
-package Code_201608;
+package step2;
 
 import java.util.Scanner;
 
