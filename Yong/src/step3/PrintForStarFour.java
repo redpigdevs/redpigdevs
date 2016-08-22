@@ -8,7 +8,7 @@ public class PrintForStarFour {
     public static void main(String[] args) {
 		
         Scanner scan = new Scanner(System.in);
-		
+	
         //int a = 5;
         int a = scan.nextInt();
 		
