@@ -9,7 +9,7 @@ public class PrintAdivisionB {
 		// TODO Auto-generated method stub
 	
 		Scanner scan = new Scanner(System.in);
-		
+	
 		//int a = 1;
 		//int b = 3;
 		
