@@ -1,8 +1,8 @@
-package Code_201608;
+package step3;
 
 import java.util.Scanner;
 
-public class PrintForNTo1 {
+public class PrintFor1ToN {
 
     @SuppressWarnings("resource")
 	public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class PrintForNTo1 {
 		//int a = 5;
 		int a = scan.nextInt();
 		
-		for(int i = a; i >= 1; i--) {
+		for(int i = 1; i <= a; i++) {
 			System.out.println(i);
 		}
 	}

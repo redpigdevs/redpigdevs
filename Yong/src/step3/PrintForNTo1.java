@@ -1,8 +1,8 @@
-package Code_201608;
+package step3;
 
 import java.util.Scanner;
 
-public class PrintForGuGuDan {
+public class PrintForNTo1 {
 
     @SuppressWarnings("resource")
 	public static void main(String[] args) {
@@ -10,11 +10,11 @@ public class PrintForGuGuDan {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		//int a = 2;
+		//int a = 5;
 		int a = scan.nextInt();
 		
-		for(int i = 1; i <= 9; i++) {
-			System.out.println(a + " * " + i + " = " + a * i);
+		for(int i = a; i >= 1; i--) {
+			System.out.println(i);
 		}
 	}
 
