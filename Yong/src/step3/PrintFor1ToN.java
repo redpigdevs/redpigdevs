@@ -9,7 +9,7 @@ public class PrintFor1ToN {
 		// TODO Auto-generated method stub
 		
 		Scanner scan = new Scanner(System.in);
-		
+	
 		//int a = 5;
 		int a = scan.nextInt();
 		
