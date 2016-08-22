@@ -9,7 +9,7 @@ public class PrintForGuGuDan {
 		// TODO Auto-generated method stub
 		
 		Scanner scan = new Scanner(System.in);
-		
+	
 		//int a = 2;
 		int a = scan.nextInt();
 		
