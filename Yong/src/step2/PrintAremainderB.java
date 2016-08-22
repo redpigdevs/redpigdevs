@@ -13,7 +13,7 @@ public class PrintAremainderB {
 		//int a = 5;
 		//int b = 8;
 		//int c = 4;
-		
+	
 		int a = scan.nextInt();
 		int b = scan.nextInt();
 		int c = scan.nextInt();
