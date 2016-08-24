@@ -1,4 +1,4 @@
-package Code_201608;
+package step4;
 
 import java.util.Scanner;
 
@@ -9,8 +9,8 @@ public class PrintIfScore {
 		
         Scanner scan = new Scanner(System.in);
         
-        int scoreVal = 100;
-        //int scoreVal = scan.nextInt();
+        //int scoreVal = 100;
+        int scoreVal = scan.nextInt();
 		
         //90 ~ 100점은 A, 80 ~ 89점은 B, 70 ~ 79점은 C, 60 ~ 69점은 D, 나머지 점수는 F
         String scoreRank = "F";
