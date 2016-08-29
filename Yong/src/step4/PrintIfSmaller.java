@@ -1,4 +1,4 @@
-package Code_201608;
+package step4;
 
 import java.util.Scanner;
 
@@ -9,19 +9,22 @@ public class PrintIfSmaller {
 		
         Scanner scan = new Scanner(System.in);
         
-        int numVal = 5;
-        //int numVal = scan.nextInt();
+        //int numArr = 10;
+        //int numVal = 5;
+        
+        int numArr = scan.nextInt();
+        int numVal = scan.nextInt();
 		
-        String[] arrVal = {"1", "10", "4", "9", "2", "3", "8", "5", "7", "6"};
-        String printVal = "";
-        for(int i = 0; i < arrVal.length; i++) {
-        	String strVal = arrVal[i];
-        	if(numVal > Integer.parseInt(strVal)) {
-        		printVal += arrVal[i] + " ";
-        	}
+        int numArray[] = new int[numArr];
+        for(int i = 0; i < numArray.length; i++) {
+            numArray[i] = scan.nextInt();
         }
-        System.out.println(printVal);
-        //System.out.println(arrVal.length);
+        //String[] numArray1 = {"1", "10", "4", "9", "2", "3", "8", "5", "7", "6"};
+        for(int J = 0; J < numArray.length; J++) {
+            if(numArray[J] < numVal) {
+                System.out.print(numArray[J] + " ");
+            }
+        }
     }
 
 }//
