@@ -21,7 +21,7 @@ public class FuncHanSu {
             
             } else if(i == 1000) {
                 break;
-            
+           
             } else {
                 valK = 0;
                 int valT = i;
