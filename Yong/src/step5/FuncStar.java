@@ -14,7 +14,7 @@ public class FuncStar {
         int valK = 0;
         int valHan = 0;
         int varArr[] = new int[3];
-		
+	
         for(int i = 1; i <= valA; i++) {
             if(0 < i && i < 100) valHan = i;
             else if(i == 1000) break;
