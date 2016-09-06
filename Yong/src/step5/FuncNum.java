@@ -14,7 +14,7 @@ public class FuncNum {
         int valC = 0;
         int valD = 0;
         int valResult = 0;
-		
+
         boolean[] generator = new boolean[10000];
         
         for(int i = 1; i < 10000; i++) {
